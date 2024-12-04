@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const shopCat = () => {
+const ShopCat = () => {
   return (
-    <div>shopCat</div>
+    <div>ShopCat</div>
   )
 }
+
+export default ShopCat
