@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import ProductWidget from './Components/ProductWidget/ProductWidget';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 
@@ -19,8 +20,9 @@ function App() {
       <Route path='/cart' element={<cart/>}/>
       <Route path='/login' element={<loginSignup/>}/>
     </Routes>
-
     </BrowserRouter>
+    
+    <ProductWidget img="https://via.placeholder.com/150" title="moja" price={100}/>
     </>
   )
 }
