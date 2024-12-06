@@ -8,7 +8,7 @@ import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
 import all_product from './Components/assets/all_product';
-import WriteProduct from './Write';
+// import WriteProduct from './Write';
 // import Read from './Read';
 
 console.log(Shop);
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div style={{width: '100px', height: '100px', background: "red"}} 
+    {/* <div style={{width: '100px', height: '100px', background: "red"}} 
     onClick={() => {
       console.log("clicked");
       
@@ -32,7 +32,7 @@ function App() {
       
     }>
       click to save to db(test)
-    </div>
+    </div> */}
 
     <BrowserRouter>
       <Navbar />
